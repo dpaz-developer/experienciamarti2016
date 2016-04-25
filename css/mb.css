@@ -1,0 +1,335 @@
+body{
+    background-image: linear-gradient(to bottom,#f8f8f8 0,#f8f8f8 100%);
+}
+
+.logo{
+
+    margin-right: 70px;
+    margin-top: -18px;
+}
+
+.input-text-search-header{
+    width:380px!important;
+}
+
+
+/******   HEADER EXPERIENCIA MARTI    **********************/
+
+.navbar-brand{
+    color: #FFF !important;
+}
+
+/*****************************/
+
+
+.container-main-numempleado{
+    border: 0px solid red;
+    margin-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-height: 100%;
+}
+
+
+.experiencia_numempleado_main{
+    border: 0px solid red;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.container-main-registro{
+    border: 0px solid red;
+    margin-top: 70px;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-height: 100%;
+}
+.registro-step{
+    height: 500px;
+    border: 0px solid red;
+    vertical-align: top;
+}
+.ok-registro{
+    width: 150px;
+    border: 0px solid red;
+    margin: 0 auto 0 auto;
+
+}
+
+select{
+    border: 0px solid red !important;
+    width: 100%;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+table td{
+    border: 0px solid red;
+    text-align: left;
+}
+
+table th{
+    border: 0px solid blue;
+    width: 100px;
+    text-align: right;
+}
+table caption{
+    color: #3399CC;
+}
+
+
+
+/******************* terminan los estilos para la experiencia marti ***************/
+
+
+.background-home{
+    background-image: url('../images/background_home.jpg')!important;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 12% 0px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 104% 160%;
+    margin-top: -33px;
+    color:#FFF!important;
+}
+
+.thumbnail a:hover{
+    text-decoration: none;
+}
+
+.thumbnail .precio{
+    color:#DF6810;
+    font-size: 1.3em;
+    /*font-weight: 700;*/
+    letter-spacing: -.5px;
+    text-align: left;
+}
+
+.thumbnail .estado{
+    color:#999;
+    font-size: 1.0em;
+    letter-spacing: -.5px;
+    text-align: left;
+}
+.thumbnail  p{
+    margin: 1px;
+}
+.caption h3{
+    margin: 1px;
+    font-size: 1.3em;
+}
+
+.total-pagination{
+    margin: 10px!important;
+}
+
+.nav-sidebar > .title {
+    padding-left: 20px;
+    color:#111 !important;
+    font-weight: bold;
+}
+
+.nav-sidebar > .subtitle {
+    padding-left: 40px;
+    margin-top: 10px;
+    color:#DF6810 !important;
+
+}
+
+
+.nav-sidebar > .active > a{
+    background-color:#FFF !important;
+    color:#DF6810 !important;
+}
+
+.nav-sidebar a{
+    color:#DF6810;
+}
+
+.button-list{
+    width: 150px;
+    text-align: left;
+}
+
+.precio{
+    color:#DF6810;
+    font-size: 1.2em;
+    letter-spacing: -.5px;
+    text-align: left;
+}
+
+.precio-recomendado{
+    color:#DF6810;
+    font-size: 1.0em;
+    letter-spacing: -.5px;
+    text-align: left;
+}
+
+/*Esto es solo para la pagina de detalle*/
+/*
+.jumbotron{
+	padding-left: 2px!important;
+	padding-top: 2px!important;
+	padding-right: 2px!important;
+	padding-bottom: 2px!important;
+}*/
+
+
+/* para el login */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*************  fin de login *******/
+
+
+
+
+
+/* Fotos*/
+
+.array_pictures input{
+
+    display: inline-block;
+
+}
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color:#CCC;
+    background-image:-webkit-linear-gradient(top, #CCC, #CCC);
+    border:1px solid #F1F1F1;
+    width: 130px;
+    height: 100px;
+
+}
+.custom-input-file .input-file {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 130px;
+    height: 100px;
+    border:1px solid #EEE;
+    color:#FFF;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+}
+
+
+
+.btn_foto
+{
+    background-color:#EEE;
+    background-image:url('../images/pic_upload.png');
+    border:1px solid #EEE;
+    color:#CCC;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    height:24px;
+    line-height:27px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-left:20px;
+    min-width:54px;
+    outline:0;
+    padding:0px;
+    text-align:center;
+    /*white-space:nowrap;*/
+    display:inline-block;
+    position:relative;
+    width: 150px;
+    height: 150px;
+}
+
+.fileUpload .thumb{
+
+    height: 150px;
+    width: 150px;
+    min-width:54px;
+
+}
+
+.fileUpload .thumb_loading{
+
+    height: 150px;
+    width: 150px;
+    min-width:54px;
+    background-image:url('../loading_picture.gif');
+
+}
+
+
+
+
+input[type='file'] {
+    color: transparent;
+}

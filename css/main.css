@@ -1,0 +1,1845 @@
+body
+{
+    /*background-image:url(themes/Images/backgroundBody.png);
+    background-repeat:repeat-x;
+    background-position:top; */
+
+    font-family:Arial, Sans-Serif;
+    font-size:12px;
+    padding:0px;
+    margin:0px;
+    /* background-color:#F1F1F1;*/
+}
+a
+{
+    font-family:Arial, Sans-Serif;
+    /*font-size:11px;*/
+    font-weight:bold;
+    color:#0B4D7D;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+
+#mainHeader
+{
+    position:fixed;
+    z-index:10 !important;
+    /* background-image:url(themes/Images/backgroundBody.png);*/
+    background-repeat:repeat-x;
+    background-position:top;
+    border: 0px solid red;
+    padding:0 auto 0 auto;
+    margin:0 auto 0 auto;
+    height:60px;
+    width:100%;
+    background-color:#322117;
+    /*debemos agregar para centrar el contenido */
+}
+#mainHeaderLight
+{
+    position:fixed;
+    z-index:10 !important;
+    /* background-image:url(themes/Images/backgroundBody.png);*/
+    background-repeat:repeat-x;
+    background-position:top;
+    border: 0px solid red;
+    padding:0 auto 0 auto;
+    margin:0 auto 0 auto;
+    height:50px;
+    width:100%;
+    background-color:#322117;
+    /*debemos agregar para centrar el contenido */
+}
+#headerContentMain
+{
+
+    border: 0px solid green ;
+    height:70px;
+    min-width:1205px;
+    width:100%;
+    padding:0 auto 0 auto;
+    margin:0 auto 0 auto ;
+
+    /*margin-top:20px;*/
+    /*debemos agregar para centrar el contenido */
+}
+#headerContentMainLight
+{
+
+    border: 0px solid green ;
+    height:50px;
+    min-width:1205px;
+    width:100%;
+    padding:0 auto 0 auto;
+    margin:0 auto 0 auto ;
+
+    /*margin-top:20px;*/
+    /*debemos agregar para centrar el contenido */
+}
+.headerContent
+{
+
+    border: 0px solid green ;
+    height:70px;
+    width:1205px;
+    /*width:100%;*/
+    padding:0 auto 0 auto;
+    margin:0 auto 0 auto ;
+
+    /*margin-top:20px;*/
+    /*debemos agregar para centrar el contenido */
+}
+
+#headerMenu
+{
+
+    /*background-image:url(themes/Images/menuBarMain.png);*/
+    /*background-repeat:no-repeat;*/
+    background-color:#F1F1F1;
+    height:25px;
+    min-width:1205px;
+    width: 100%;
+}
+#headerMenu li
+{
+    float:left;
+    list-style:none;
+    /*margin-left:30px;*/
+    font-family:Verdana;
+    font-size:12px;
+    font-weight:bold;
+    color:#333333;
+
+}
+#headerMenu li a
+{
+    font-family:Verdana;
+    /*font-size:12px;*/
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:2px;
+    border-right:1px solid #CCC;
+
+}
+#headerMenu .active
+{
+
+
+}
+
+#headerMenu li a:hover
+{
+
+}
+#headerMenu ul
+{
+    margin:0 0 0 3px;
+    padding-top:5px;
+    padding-left:0px;
+}
+
+#header
+{
+
+    background-color:#322117;
+    min-width:1205px;
+    width:100%
+padding:0 auto 0 auto;
+    margin:0px auto 0 auto;
+    border: 0px solid red;
+    height: 50px;
+
+}
+
+#header h1 {
+    clear:both;
+    display:inline;
+    float:left;
+    margin-top:0;
+}
+
+a.headerLogo
+{
+
+    width:202px;
+    height:25px;
+    background-attachment: scroll;
+    background-color:transparent;
+    background-image:url(themes/Images/mainLogo.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    margin-top:10px;
+    float:left;
+    text-indent: -9000px;
+    overflow:hidden;
+}
+
+#headerLink
+{
+    border: 0px solid green;
+    height:25px;
+    width:500px;
+    text-align:right;
+    margin-left:490px;
+    margin-top:-35px;
+    float:left;
+}
+#headerLink a
+{
+    color:#FFFFFF;
+    font-family:Arial;
+    font-size:12px;
+}
+#headerLink span
+{
+    color:#3399CC;
+    font-family:Verdana;
+    font-size:13px;
+
+}
+#headerAnunciate
+{
+    border:0px solid red;
+    float:right;
+    width:159px;
+    height:20px;
+    margin-top:-5px;
+    margin-right:0px;
+    text-align:center;
+    background-color:#333;
+    padding-top:5px;
+}
+#headerAnunciate a
+{
+    color:#FFF;
+    font-family:Arial, Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+}
+#headerSearch
+{
+
+    border:0px solid red;
+    float:left;
+    width:380px;
+    height:20px;
+    margin-top:-25px;
+    margin-left:210px;
+    background-image:url(themes/Images/boton_buscar.png);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+
+
+#searchFree
+{
+    position:relative;
+    height:40px;
+    padding-top:9px;
+    width:550px;
+    margin-left:185px;
+
+}
+#boxSearchMain
+{
+    width:370px;
+    font-family:Arial;
+    font-size:15px;
+    /*font-style:italic;*/
+    color:#000;
+    height:26px;
+    border: 0px solid #666666;
+    float:left;
+    margin-right: 4px;
+    padding: 0 0 0 5px;
+}
+
+.btn-search{
+
+    background-color:#F5F5F5;
+    background-image:-webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+    border:1px solid rgba(0, 0, 0, 0.0976563);
+    color:#444444;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:11px;
+    font-weight:bold;
+    height:40px;
+    line-height:27px;
+    margin-right:2px;
+    min-width:100px;
+    outline:0;
+    /*padding:0 8px;*/
+    text-align:center;
+    white-space:nowrap;
+    display:inline-block;
+    position:relative;
+}
+
+
+/*********************************************** ESTILOS PARA EL FOOTER *******************************************************/
+
+#mainFooter
+{
+    margin:0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    border-top: 1px solid #CCC;
+    margin-top:0px;
+    padding-top: 10px;
+}
+#footer
+{
+    border: 0px solid red ;
+    /*background-image:url(themes/Images/footer_fondo.png);*/
+    background-repeat:repeat-x;
+    height:50px;
+    font-family:Arial, Sans-Serif;
+    font-size:9px;
+    color:#666666;
+    text-align:center;
+    margin:0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    overflow:hidden;
+    width:1000px;
+}
+
+.logoFooter
+{
+    border-left:1px solid #999;
+    width:300px;
+    height:20px;
+    background-image:url(themes/Images/footer_logo.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    padding-left:10px;
+    padding-top:5px;
+}
+.derechosReservados
+{
+    border-left:1px solid #999;
+    width:300px;
+    text-align:right;
+    padding-right:10px;
+}
+
+#footer a
+{
+    text-decoration:none;
+    font-family:Arial, Sans-Serif;
+    font-size:9px;
+    color:#666666;
+}
+#footer a:hover
+{
+    text-decoration:underline;
+}
+#footer p a
+{
+    font-weight:bold;
+    font-size:13px;
+}
+
+#footer ul{
+
+}
+
+#footer li{
+    float:left;
+    list-style:none;
+}
+.footer_izq{
+    border: 0px solid red;
+    float:left;
+    width: 680px;
+}
+.footer_der{
+    border: 0px solid blue;
+    float:right;
+    width:auto;
+    margin-top:2px;
+}
+/******************************* ESTILOS PARA LA CAJA GENERAL ************************************************************/
+.boxTitle
+{
+    font-family:Arial, Sans-Serif;
+    font-size:15px;
+    font-weight:bold;
+    height:18px;
+    color:#333;
+    text-align:left;
+    padding-left:10px;
+}
+
+.boxContainer
+{
+    height:auto;
+    font-family:Arial, Sans-Serif;
+    font-size:12px;
+    border: 1px solid #CCC;
+    background-color:#FFF;
+}
+
+.boxContainer li a{
+    color:#555;
+}
+.boxContainerSearch
+{
+    height:auto;
+    font-family:Arial, Sans-Serif;
+    font-size:11px;
+    border: 1px solid #CCC;
+    background-color:#F7F7F7;
+
+}
+.navigatorHome
+{
+    width:170px;
+    border: 0px solid #CCC;
+    margin-bottom:10px;
+}
+.title
+{
+    height:26px;
+    border-bottom:1px dotted #CCC;
+    padding-bottom:5px;
+}
+.title p
+{
+    font-family:Verdana;
+    font-size:16px;
+    color:#0B4D7D;
+    font-weight:bold;
+}
+
+
+
+/*************************************************** Estilos home ***************************************************/
+
+#homeTop
+{
+
+    border:0px solid red;
+    width:1000px;
+    overflow: hidden;
+    /*height:180px;*/
+    margin-top:20px;
+}
+
+#searchBoxAdvanced
+{
+    border: 0px solid #CCC;
+    /*height:175px;*/
+    overflow: hidden;
+    width:349px;
+    float:left;
+}
+#markPatrocinated
+{
+    border: 0px solid #CCC;
+    height:180px;
+    width:630px;
+    float:right;
+
+}
+
+.homeMarcasIzq
+{
+    border:0px solid red;
+    width:35px;
+    height:157px;
+    text-align:center;
+    color:#999;
+    font-family:Calibri;
+    font-size:45px;
+    font-weight:bold;
+    text-align:center;
+    background-color:#FEFEFE;
+}
+.homeMarcasDer
+{
+    border:0px solid red;
+    width:35px;
+    height:157px;
+    text-align:center;
+    color:#999;
+    font-family:Calibri;
+    font-size:45px;
+    font-weight:bold;
+    text-align:center;
+    background-color:#FEFEFE;
+}
+.picsMarcas
+{
+    width:557px;
+}
+
+/* publicidad home**/
+#publicidadHome_2
+{
+    padding-bottom:10px;
+    width:190px;
+    height:260px;
+    text-align:center;
+    padding-top:5px;
+}
+#publicidadHome_3
+{
+    padding-bottom:10px;
+    width:190px;
+    height:95px;
+    text-align:center;
+    padding-top:5px;
+}
+
+/*++++++++ grid de anuncios*/
+
+.listadoArticle { border:0px solid green; width:571px;  overflow: hidden; padding-left:10px;}
+.listadoArticle li { border-bottom:1px solid #B6B6B6; list-style: none outside none;  overflow: hidden; margin-bottom:3px; }
+.listadoArticle div { display:inline-block;}
+.listadoArticle .datosListado { width:250px; float:left; padding-left:0px; }
+.listadoArticle .datosListado li { border:0px solid black; }
+.listadoArticle li:hover{ background-color:#F2F2F2;}
+
+.listadoArticle .subtitle { font-family:Arial, Sans-Serif; font-size:14px; font-weight:bold; width:250px;}
+.listadoArticle .price { font-family:Arial, Sans-Serif; font-size:15px; color:#333; margin-top:3px;}
+.listadoArticle .state { font-family:Arial, Sans-Serif; font-size:12px; color:#333; margin-top:3px;}
+.listadoArticle .noPhotos { font-family:Arial, Sans-Serif; font-size:12px; color:#333; margin-top:3px;}
+.gridImage{ border-bottom: 0px solid #B6B6B6; width:138px; height:100px; float:left;}
+.gridImageDestacada { height:75px; width:100px;}
+.subtitleDes { font-family:Arial, Sans-Serif; font-size:12px; font-weight:bold; width:172px; margin-top:15px;}
+.priceDes { font-family:Arial, Sans-Serif; font-size:15px; color:#333; }
+.stateDes { font-family:Arial, Sans-Serif; font-size:12px; color:#333; margin-bottom:2px; }
+.divLiga{ text-decoration:none; color:#000; border:0;}
+.gridContentFeatures
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#000000;
+    border-bottom: 1px solid #B6B6B6;
+}
+.gridContentFeatures span .ubicacion
+{
+    font-style:italic;
+    font-weight:normal;
+}
+.gridContentFeatures .subtitle
+{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#0b4D7D;
+    font-weight:bold;
+    width:14px;
+}
+
+.gridContentFeatures .feature p span
+{
+    font-weight:bold;
+}
+
+.gridOption
+{
+    margin:4px;
+}
+
+/******** grid para los anuncios destacados *********/
+
+
+#anunciosDestacados
+{
+    border:0px solid red;
+    overflow:hidden;
+    width:180px;
+    float:left;
+    padding:10px;
+}
+.destacadosList
+{
+    padding-left:0px;
+}
+.destacadosList li
+{
+    border-bottom:1px solid #B6B6B6; list-style: none outside none;  overflow: hidden; padding-bottom:3px;
+}
+.titleDestacados
+{
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+/************** ESTILO BUSCADOR*/
+.selectedBox
+{
+    width:195px;
+    padding-top:20px;
+}
+.selectedBox div
+{
+    height:30px;
+}
+.selectedBox select
+{
+    width:175px;
+    height:20px;
+    margin-left:5px;
+    font-family:Arial;
+    font-size:12px;
+}
+.optionBox
+{
+    padding-left:5px;
+    padding-top:20px;
+    font-family:Arial;
+    font-size:12px;
+}
+
+.buttonActionBoxSearch
+{
+    border: 0px solid red;
+    margin-top:15px;
+
+}
+.buttonActionBoxSearchButton
+{
+    width:130px;
+    height:30px;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-image:url(themes/Images/backgroundButtonAction.png);
+    background-repeat :repeat-x;
+}
+
+/***************************** Estilos para el home contenedor de anuncios *********************/
+#homeBody
+{
+
+    border:0px solid red;
+    width:1000px;
+    /*height:1400px;*/
+    overflow: hidden;
+    margin-top:15px;
+}
+#homeBodyMenus
+{
+    border: 0px solid blue;
+    width:195px;
+    height:auto;
+    float:left;
+}
+#homeBodyArticles
+{
+    width:600px;
+    border: 0px solid green;
+    float:left;
+}
+
+/***************************** ESTILOS PARA EL CONTENIDO DE LA PAGINA ***************************************************/
+#mainContainer
+{
+    margin:0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    border: 0px solid blue;
+    min-height:500px;
+    height:auto;
+    /*background-color: #F6F6F6;*/
+}
+#subMainContainer
+{
+    margin:0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    padding-top:85px;
+    border: 0px solid red;
+    width:1205px;
+    min-height:500px;
+    height:auto;
+    overflow: hidden;
+}
+
+.navegadores
+{
+    border:0px solid black;
+    padding-left:5px;
+}
+
+.navegadores li
+{
+    list-style: none outside none;
+    height: 18px;
+}
+
+/************************************** ESTILOS PARA EL REGISTRO  ********************************************************/
+
+.sectionRegister
+{
+    border: 0px solid #CCC;
+    background-color:#FFF;
+}
+
+#contenido_registro
+{
+    border: 0px solid #CCC;
+    height:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#registro
+{
+    border: 1px solid #CCC;
+}
+.caja_seleccion
+{
+
+    height:40px;
+    font-family:Arial;
+    font-size:18px;
+    border: 1px solid #eee;
+    padding: 8px 10px;
+    margin:3px;
+}
+.reg_radios
+{
+    margin-right:10px;
+    height:22px;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    margin:3px;
+}
+
+#registro .radios
+{
+    margin-right:10px;
+    height:22px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+}
+#registro .telefonos
+{
+    padding-right:3px;
+    height:22px;
+    width:50px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+}
+.titulo_reg
+{
+    font-family:Arial;
+    font-size:27px;
+    font-weight:bold;
+    width:auto;
+    color:#0B4D7D;
+    padding-left:10px;
+    margin-top:0px;
+    margin-right:10px;
+    margin-bottom:10px;
+    /*border-bottom:1px solid #CCCCCC;*/
+}
+.texto_registro
+{
+    font-family:Arial;
+    font-size:15px;
+}
+.validacionAjax
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:Red;
+}
+.caja_registro
+{
+    width:172px;
+    height:22px;
+    font-family:Arial;
+    font-size:18px;
+    padding: 8px 10px;
+    margin:3px;
+    border: 1px solid #eee;
+}
+.big
+{
+    width:375px;
+}
+.boton_registro
+{
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.reg_ejemplo{ padding:2px 2px 2px 5px; font-size:12px; color:#AAA;}
+.boton_general
+{
+    width:200px;
+    height:52px;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+
+}
+.boton_registro
+{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#conteiner_info_registro
+{
+    border-right: 1px dotted #CCC;
+    width:350px;
+    height:450px;
+    font-family:Arial;
+    font-size:10px;
+    color:#333333;
+    margin-left:80px;
+}
+#registro_container_left span
+{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+}
+#registro_container_left p
+{
+    margin-left:45px;
+}
+
+#registro_container_left span
+{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+}
+#registro_container_left p
+{
+    margin-left:45px;
+}
+
+#registro_bienvenido span
+{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+}
+#registro_bienvenido p
+{
+    margin-left:45px;
+}
+.info_reg_titulo
+{
+    width:166px;
+    height:26px;
+    font-family:Impact;
+    font-size:21px;
+    margin-top:30px;
+}
+.info_reg_compra
+{
+    width:250px;
+    height:100px;
+    background-image:url(themes/Images/reg_vende.png);
+    background-repeat:no-repeat;
+    text-align:left;
+    margin-left:30px;
+
+}
+.info_reg_compara
+{
+    width:250px;
+    height:100px;
+    background-image:url(themes/Images/reg_compara.png);
+    background-repeat:no-repeat;
+    text-align:left;
+    margin-left:30px;
+}
+.info_reg_solicita
+{
+    width:250px;
+    height:100px;
+    background-image:url(themes/Images/reg_solicita.png);
+    background-repeat:no-repeat;
+    text-align:left;
+    margin-left:30px;
+}
+.info_reg_ligas
+{
+    font-family:Arial;
+    font-size:10px;
+    margin-bottom:0px;
+    text-align:right;
+    margin-right:20px;
+    margin-top:70px;
+    color:#0B4D7D;
+}
+.info_reg_ligas a
+{
+    font-family:Arial;
+    font-size:10px;
+    color:#0E5CBC;
+}
+.buttonActionRegisterButton
+{
+    /* background-color:#F5F5F5;
+     background: -webkit-linear-gradient(top, #79bc64, #578843);*/
+    background-color:#357ae8;
+    background-image:-webkit-linear-gradient(top, #357ae8, #4d90fc);
+    border:1px solid #2f5bb7;
+    -webkit-box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    /*border: 1px solid #CCC;*/
+    border:1px solid rgba(0, 0, 0, 0.0976563);
+    color:#444444;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:hand;
+    color:#FFF;
+    font-size:20px;
+    font-weight:bold;
+    height:24px;
+    line-height:27px;
+    margin-right:2px;
+    min-width:54px;
+    outline:0;
+    padding:0 8px;
+    text-align:center;
+    white-space:nowrap;
+    display:inline-block;
+    position:relative;
+    height:52px;width:200px;
+}
+
+.info_reg_count{ font-family:Tahoma; font-size:13px; color:#69A74E; text-align:right; width:90%; border-top:40px; margin-right:20px; font-weight:bold;}
+.info_reg_count a{ text-decoration:none; color:#69A74E; font-size:13px;}
+.info_reg_count a:hover{ text-decoration:underline;}
+
+
+#registro_container_left{
+    border-right: 1px dotted #CCC;
+    width:500px;
+    min-height:500px;
+    font-family:Arial;
+    font-size:10px;
+    color:#333333;
+    margin-left:80px;
+    float:left;
+}
+#registro_container_right{
+    border: 0px solid #CCC;
+    height:auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    height:auto;
+    width:500px;
+    float: left;
+    padding-left: 60px;
+}
+
+.registro_label_titulo
+{
+    font-family: Arial;
+    font-size: 30px;
+    color: #E88435;
+    padding: 10px;
+    font-weight: bold;
+    margin-left:20px;
+}
+
+.btn_ingresar
+{
+    background-color:#E88435;
+    background-image:-webkit-linear-gradient(top, #E88435, #E88435);
+    border:1px solid #E88435;
+    color:#FFF;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    height:24px;
+    line-height:27px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-left:20px;
+    min-width:54px;
+    outline:0;
+    padding:0 8px;
+    text-align:center;
+    /*white-space:nowrap;*/
+    display:inline-block;
+    position:relative;
+    width: 180px;
+    height: 40px;
+}
+
+.input_registro_login{
+    border: 1px solid #e5e5e5;
+    height: 30px;
+    font-family: Arial;j
+color: #000;
+    font-size: 20px;
+    padding: 3px 3px 3px 3px;
+    width: 340px;
+    margin-top: 3px;
+    margin-left:20px;
+    padding:2px;
+
+
+}
+
+.registro_box_login{
+    /* border:1px solid #e5e5e5;
+     background-color:#f1f1f1;
+     background-image:-webkit-linear-gradient(top, #f1f1f1, #F1F1F1);*/
+    width:400px;
+    padding: 25px auto 25px auto;
+    margin-top:25px;
+    margin-left:25px;
+    padding-top:10px;
+    height:145px;
+
+}
+.registro_olvide_pass{
+    /*padding: 20px auto 20px auto;*/
+    margin-top:5px;
+    margin-left:25px;
+    padding-top:10px;
+
+}
+
+.mensaje_bienvenida{
+    margin-left: 10px;
+}
+.mensaje_bienvenida p{
+    font-family:Arial;
+    font-size: 12px;
+}
+
+#registro_bienvenido div{
+    display: block;
+}
+
+.mensajeValido
+{
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    position: relative;
+    padding-left: 15px;
+    background-color: #dff0d8;
+    color: #468847;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width:200px;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size:13px;
+}
+
+.mensajeInvalido
+{
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    position: relative;
+    padding-left: 15px;
+    background-color: #f2dede;
+    color: #b94a48;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width:200px;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size:13px;
+}
+
+.mesajeActivado
+{
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    position: relative;
+    padding-left: 15px;
+    background-color: #dff0d8;
+    color: #468847;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width:450px;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size:13px;
+}
+.mensajeNoActivado
+{
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    position: relative;
+    padding-left: 15px;
+    background-color: #f2dede;
+    color: #b94a48;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width:450px;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size:13px;
+}
+/* *************************************** estilo para el login  *********************************/
+
+#loginMainBox{border:0px solid red; width:400px; height:145px; background-color:#F0F0F0; margin:15px auto 0 auto; }
+#loginMainBox .loginBox{margin-top:20px; font-family:Arial; font-size:12px;}
+#loginMainBox .loginBox input{ width:230px; height:33px; font-size:16px; font-weight:bold; border:1px solid #CCC;}
+#loginMainButton{border:0px solid red; margin:10px auto 0 auto; width:195px; }
+
+
+
+
+#login_general
+{
+    border: 1px solid #F0F0F0;
+    background-color:#F0F0F0;
+    width:403px;
+    height:100px;
+    margin-top:30px;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+#login_general .item_registro
+{
+    border:0px solid blue;
+    width:100px;
+    margin-left:2px;
+    float:left;
+    text-align:right;
+    font-family:Arial;
+    font-size:12px;
+    margin-top:4px;
+}
+#login_general .valor_registro
+{
+    border:0px solid blue;
+    width:250px;
+    margin-left:2px;
+    float:left;
+    margin-top:4px;
+}
+#login_general .caja_texto
+{
+
+    width:230px;
+    height:25px;
+    font-family:Tahoma;
+    font-size:14px;
+    font-weight:bold;
+
+
+}
+#login_general .ligas
+{
+    border: 0px solid red;
+    margin-top:80px;
+    width:400px;
+    font-family:Arial;
+    font-size:10px;
+    color:#0E5CBC	;
+    text-align:right;
+
+}
+#login_general .ligas a
+{
+    font-family:Arial;
+    font-size:10px;
+    color:#0E5CBC	;
+}
+.div_boton_iniciar_sesion
+{
+    margin-top:30px;
+    text-align:center;
+}
+.login_registrarse
+{
+    font-family:Verdana;
+    font-size:14px;
+    color:#EF8100;
+    font-weight:bold;
+}
+#caja_login
+{
+    border: 1px solid #CCC;
+    padding-bottom:20px;
+    padding-top:20px;
+    width:300px;
+    background-color:#F3F3F3;
+}
+
+
+.etiqueta
+{
+    border:0px solid red;
+    width:140px;
+    height:20px;
+    margin-top:10px;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    text-align:right;
+    float:left;
+}
+.boxregistro
+{
+    border:0px solid blue;
+    width:360px;
+    margin-left:2px;
+    float:left;
+    margin-top:10px;
+}
+.item_registro
+{
+    border:0px solid blue;
+    width:360px;
+    margin-left:2px;
+    float:left;
+    margin-top:8px;
+}
+
+.MensajeActivacion
+{
+    border: 1px solid #CC9900;
+    width:670px;
+    height:35px;
+    background-color:#FFF1C6;
+    font-family:Arial Sans-Serif;
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+    margin-top:5px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#990000;
+}
+
+/***************************** ESTILOS PARA EL FINAL DEL REGISTRO **************************************************/
+
+.titulo_reg_bienvenido
+{
+    font-family:Tahoma;
+    font-size:34px;
+    font-weight:bold;
+    width:350px;
+    color:#0B4D7D;
+    padding-left:10px;
+    margin-top:15px;
+    margin-right:10px;
+    border-bottom:1px solid #CCCCCC;
+    margin-left:20px;
+}
+#bienvenidoMensajeBox{border:1px solid #FFAD5B; width:470px; height:145px; background-color:#FFF8DF; margin:15px auto 0 auto; }
+#bienvenidoMensajeBox p { font-family: Arial; font-size:15px;  padding-top:15px; margin-left:15px;
+    margin-right:15px; text-align:left; }
+#conteiner_info_registro_fin
+{
+    border-left: 1px dotted #CCC;
+    width:350px;
+    height:300px;
+    font-family:Arial;
+    font-size:10px;
+    color:#333333;
+    margin-bottom:10px;
+}
+.info_reg_fin
+{
+    width:270px;
+    height:26px;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:30px;
+    color:#666;
+    margin-left:20px;
+}
+
+#conteiner_info_registro_fin span
+{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+}
+#conteiner_info_registro_fin p
+{
+    margin-left:45px;
+}
+
+/************************************* ESTILOS PARA EL FLUJO DE PUBLICACION ***************************/
+#tipoItemMain{
+    border:0px solid red;
+    width:950px;
+    height:300px;
+    margin: 5px auto 0 auto;
+}
+#tipoItemMain ul{
+    margin: 60px auto 0 auto;
+    width: 1000px;
+    height:300px;
+    border: 0px solid blue;
+    list-style-type:none;
+}
+#tipoItemMain li{
+
+    display: inline-block;
+    width:200px;
+    height:50px;
+    margin-left: 20px;
+}
+#tipoItemMain img{
+    width:200px;
+    height:200px;
+    border:1px solid #CCC;
+}
+#tipoItemMain .tipoItem{
+    width: 200px;
+    border: 0px solid green;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+#categoriaItemMain{
+    border:0px solid red;
+    width:950px;
+    min-height:300px;
+    margin: 5px auto 0 auto;
+}
+
+#categoriaItemMain .categoriaMenu{
+    border:1px solid #CCC;
+    width: auto;
+    min-height:250px;
+    max-height:500px;
+    margin: 10px 5px 0 5px;
+    display: inline-block;
+    background-color: #FFF;
+}
+#categoriaItemMain .categoriaMenuBtn{
+    border:0px solid #CCC;
+    width: auto;
+    min-height:250px;
+    max-height:500px;
+    margin: -300px 5px 0 5px;
+    display: inline-table;
+
+}
+#categoriaItemMain ul{
+    width:auto;
+    /*margin: 5px;*/
+    padding-left:0px;
+    padding-top:5px;
+    list-style-type:none;
+    background-color:#FFF;
+}
+#categoriaItemMain li{
+    /*border-top: 1px solid #CCC;*/
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+}
+#categoriaItemMain li a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #666;
+
+}
+
+#previewItemMain
+{
+    width:1000px;
+    border:0px solid red;
+    min-height:300px;
+    margin: 30px auto 0 auto;
+    vertical-align:top;
+}
+
+#previewItemMain .contenido {
+    border:0px solid red;
+    display:inline-block;
+    vertical-align: top;
+
+}
+#previewItemMain .contenido_der {
+    border:0px solid red;
+    display:inline-block;
+    vertical-align: top;
+    margin-top:30px;
+    margin-left:20px;
+
+}
+#previewItemMain .previewTitle{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#666;
+    /*border-bottom: 1px dashed #CCC;*/
+    font-weight:bold;
+    margin-bottom: 10px;
+
+}
+#previewItemMain .previewTitle_izq{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#666;
+    border-bottom: 1px dashed #CCC;
+    /* font-weight:bold;*/
+    margin-bottom: 10px;
+
+}
+#previewItemMain .previewPhoto{
+    width:600px;
+    height:405px;
+    border:1px solid #CCC;
+    margin:3px;
+
+}
+#previewItemMain .previewPrecio{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#CC0000;
+    margin-top: 20px;
+    margin-left:30px;
+    text-decoration: underline;
+    font-weight:bold;
+}
+#previewItemMain .previewCondition{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:#000;
+}
+#previewItemMain .previeweDescription
+{
+    width: 350px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#000;
+    text-align:justify;
+    margin-top: 10px;
+}
+#previewItemMain .previewBtnContinuar{
+    margin-left:50px;
+    margin-top:20px;
+}
+
+/***********************************************************************************************/
+
+#listadoContainerMain {
+    border:0px solid red;
+    width:1000px;
+    vertical-align: top;
+}
+#listadoContainerMain #menusNavigatorContainer{
+    display:inline-block;
+    border:0px solid blue;
+    width:175px;
+    vertical-align: top;
+}
+
+#menusNavigatorContainer .boxContainer ul{
+
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 5px 0 0 3px;
+
+}
+
+#menusNavigatorContainer .boxContainer li{
+
+    margin: 3px 0 0 0;
+
+}
+#menusNavigatorContainer .boxContainer li a{
+
+    font-size:13px;
+    font-weight:normal;
+
+}
+#listadoContainerMain #grillaMainContainer{
+    display:inline-block;
+    border:0px solid green;
+}
+
+
+
+/***********************************************************************************************/
+#grillaMainContainer{
+    border:0px solid #CCC;
+    width:1000px;
+
+}
+#grillaMainContainer ul
+{
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+#grillaMainContainer li a{
+    text-decoration:none;
+}
+#grillaMainContainer li{
+    /*border-right: 1px  dashed #dedede;
+    border-bottom: 1px dashed #dedede;*/
+    float: left;
+    height: auto;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    padding: 3px 0 0 0;
+}
+
+#grillaMainContainer .grillaImagen{
+    width:300px;
+    height:200px;
+    border: 1px solid #F1F1F1;
+    margin:1px;
+}
+#grillaMainContainer .grillaInfo{
+    border:0px solid blue;
+    width:300px;
+    height:60px;
+
+}
+#grillaMainContainer p{
+    text-align:left;
+}
+#grillaMainContainer .grillaTitle{
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    margin:1px;
+}
+#grillaMainContainer .grillaPrecio{
+    font-size:15px;
+    font-weight:bold;
+    color:#CC0000;
+    margin:1px;
+}
+#grillaMainContainer .grillaEstado{
+    font-size:12px;
+    color:#666;
+    margin:1px;
+}
+
+#listadoPublicidadSky{
+    width:200px;
+    height:350px;
+}
+
+.listadoTitleSearch{
+
+    border:0px solid red;
+    width:920px;
+    /*margin-left:200px;
+    margin-top: -25px;*/
+    padding:0px;
+}
+
+
+
+
+/***********************************************************************************************/
+
+#dataItemMain {
+
+    width:950px;
+    min-height:650px;
+    margin: 30px auto 0 auto;
+}
+
+#dataItemMain .data_etiqueta{
+    display:flex;
+}
+#dataItemMain .data_value{
+    display:inline-block;
+    margin-right: 25px;
+}
+#dataItemMain .data_etiqueta{
+
+    font-size: 24px;
+    font-family: "ProximaNovaCondensed","Helvetica Neue",Arial,Helvetica,sans-serif;
+    margin-top: 30px;
+    width: auto;
+    text-align: right;
+    vertical-align:top;
+}
+
+#dataItemMain .feature_item{
+    margin: 10px 3px 3px 3px;
+}
+
+
+#dataItemMain .input_text{
+    width: 100%;
+    padding: .4em;
+    border: 1px solid #ccc;
+    border-radius: .3125em;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#dataItemMain select
+{
+    width: 397px;
+    padding: .4em;
+    border: 1px solid #ccc;
+    border-radius: .3125em;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#dataItemMain radio {
+    margin: 3px 0.5ex;
+    padding: initial;
+    background-color: red;
+    border: 2px solid green;
+    font-size: 1.20em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#dataItemMain textArea
+{
+    width: 397px;
+    padding: .4em;
+    border: 1px solid #ccc;
+    border-radius: .3125em;
+    font-size: 1.20em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.btn-continue{
+
+    background-color:#E88435;
+    background-image:-webkit-linear-gradient(top, #E88435, #E88435);
+    border:0px solid #E88435;
+    color:#F1F1F1;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+    height:27px;
+    line-height:27px;
+    margin-right:2px;
+    min-width:54px;
+    outline:0;
+    padding:0 8px;
+    text-align:center;
+    white-space:nowrap;
+    display:inline-block;
+    position:relative;
+    width:auto;
+    height:50px;
+}
+
+.btn-comprar{
+
+    background-color:#E88435;
+    background-image:-webkit-linear-gradient(top, #E88435, #E88435);
+    border:1px solid #E88435;
+    color:#F1F1F1;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+    line-height:27px;
+    margin-right:2px;
+    min-width:54px;
+    outline:0;
+    padding:0 8px;
+    text-align:center;
+    white-space:nowrap;
+    display:inline-block;
+    position:relative;
+    width:150px;
+    height:35px;
+}
+
+.detalleBtnComprar{
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.detalleGallery{
+    width:600px;
+    height:70px;
+    border:1px solid #CCC;
+    margin:3px;
+}
+
+.detalleGallery .detallePicGallery{
+    display: inline-block;
+    width:50px;
+    height:40px;
+    margin-left:5px;
+    /* margin-top: 5px;
+     border:1px solid red;*/
+}
+#detalleQuestions{
+    width:100%;
+    border:1px solid #CCC;
+    height:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+#detalleQuestions textarea{
+
+    width:99%;
+    height:50px;
+    border: 1px solid #CCC;
+}
+
+.detalleComentario{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border-top:1px solid #CCC;
+    padding:3px;
+    color:#555;
+    width: 99%;
+    height:auto;
+    margin-top:5px;
+    background-color:#FFF;
+}
+
+.detalleUsercomentario{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:4px;
+
+}
+
+.detalleQuestionsTitleMain {
+    font-size: 20px;
+    color: #555;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.detalle_telefonos{
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+    margin-top: 5px;
+}
+.detalle_telefonos a{
+    color:#1656C9;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.mensaje_publicacion{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#449958;
+}
+.mensaje_publicacion a{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#E88435;
+}
+
+
+/********************************************** PYB *********************************************/
+
+.big iframe{
+    width:500px;
+    height:375px;
+}
+
+/* Fotos*/
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /*background-color:#E88435;
+    background-image:-webkit-linear-gradient(top, #E88435, #E88435);*/
+    border:1px solid #F1F1F1;
+    width: 130px;
+    height: 100px;
+}
+.custom-input-file .input-file {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+
+}
+
+.btn_foto
+{
+    background-color:#E88435;
+    background-image:-webkit-linear-gradient(top, #E88435, #E88435);
+    border:1px solid #E88435;
+    color:#FFF;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    height:24px;
+    line-height:27px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-left:20px;
+    min-width:54px;
+    outline:0;
+    padding:0 8px;
+    text-align:center;
+    /*white-space:nowrap;*/
+    display:inline-block;
+    position:relative;
+    width: 130px;
+    height: 100px;
+}
+
+/**Errors*/
+.error{
+    color: darkred;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 12px;
+}
+
+
+
